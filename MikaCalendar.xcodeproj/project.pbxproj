@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		254F01881FD7D54500DEEEAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F01871FD7D54500DEEEAE /* AppDelegate.m */; };
+		254F018B1FD7D54500DEEEAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F018A1FD7D54500DEEEAE /* ViewController.m */; };
+		254F018E1FD7D54500DEEEAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254F018C1FD7D54500DEEEAE /* Main.storyboard */; };
+		254F01901FD7D54500DEEEAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 254F018F1FD7D54500DEEEAE /* Assets.xcassets */; };
+		254F01931FD7D54500DEEEAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254F01911FD7D54500DEEEAE /* LaunchScreen.storyboard */; };
+		254F01961FD7D54500DEEEAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F01951FD7D54500DEEEAE /* main.m */; };
+		254F01A01FD7D54500DEEEAE /* MikaCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F019F1FD7D54500DEEEAE /* MikaCalendarTests.m */; };
+		254F01AB1FD7D54500DEEEAE /* MikaCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254F01AA1FD7D54500DEEEAE /* MikaCalendarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		254F019C1FD7D54500DEEEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254F017B1FD7D54500DEEEAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254F01821FD7D54500DEEEAE;
+			remoteInfo = MikaCalendar;
+		};
+		254F01A71FD7D54500DEEEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 254F017B1FD7D54500DEEEAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 254F01821FD7D54500DEEEAE;
+			remoteInfo = MikaCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		254F01831FD7D54500DEEEAE /* MikaCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MikaCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		254F01861FD7D54500DEEEAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		254F01871FD7D54500DEEEAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		254F01891FD7D54500DEEEAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		254F018A1FD7D54500DEEEAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		254F018D1FD7D54500DEEEAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		254F018F1FD7D54500DEEEAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		254F01921FD7D54500DEEEAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		254F01941FD7D54500DEEEAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254F01951FD7D54500DEEEAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		254F019B1FD7D54500DEEEAE /* MikaCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikaCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254F019F1FD7D54500DEEEAE /* MikaCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MikaCalendarTests.m; sourceTree = "<group>"; };
+		254F01A11FD7D54500DEEEAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254F01A61FD7D54500DEEEAE /* MikaCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikaCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		254F01AA1FD7D54500DEEEAE /* MikaCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MikaCalendarUITests.m; sourceTree = "<group>"; };
+		254F01AC1FD7D54500DEEEAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		254F01801FD7D54500DEEEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254F01981FD7D54500DEEEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254F01A31FD7D54500DEEEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		254F017A1FD7D54500DEEEAE = {
+			isa = PBXGroup;
+			children = (
+				254F01851FD7D54500DEEEAE /* MikaCalendar */,
+				254F019E1FD7D54500DEEEAE /* MikaCalendarTests */,
+				254F01A91FD7D54500DEEEAE /* MikaCalendarUITests */,
+				254F01841FD7D54500DEEEAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		254F01841FD7D54500DEEEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				254F01831FD7D54500DEEEAE /* MikaCalendar.app */,
+				254F019B1FD7D54500DEEEAE /* MikaCalendarTests.xctest */,
+				254F01A61FD7D54500DEEEAE /* MikaCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		254F01851FD7D54500DEEEAE /* MikaCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				254F01861FD7D54500DEEEAE /* AppDelegate.h */,
+				254F01871FD7D54500DEEEAE /* AppDelegate.m */,
+				254F01891FD7D54500DEEEAE /* ViewController.h */,
+				254F018A1FD7D54500DEEEAE /* ViewController.m */,
+				254F018C1FD7D54500DEEEAE /* Main.storyboard */,
+				254F018F1FD7D54500DEEEAE /* Assets.xcassets */,
+				254F01911FD7D54500DEEEAE /* LaunchScreen.storyboard */,
+				254F01941FD7D54500DEEEAE /* Info.plist */,
+				254F01951FD7D54500DEEEAE /* main.m */,
+			);
+			path = MikaCalendar;
+			sourceTree = "<group>";
+		};
+		254F019E1FD7D54500DEEEAE /* MikaCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				254F019F1FD7D54500DEEEAE /* MikaCalendarTests.m */,
+				254F01A11FD7D54500DEEEAE /* Info.plist */,
+			);
+			path = MikaCalendarTests;
+			sourceTree = "<group>";
+		};
+		254F01A91FD7D54500DEEEAE /* MikaCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				254F01AA1FD7D54500DEEEAE /* MikaCalendarUITests.m */,
+				254F01AC1FD7D54500DEEEAE /* Info.plist */,
+			);
+			path = MikaCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		254F01821FD7D54500DEEEAE /* MikaCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254F01AF1FD7D54500DEEEAE /* Build configuration list for PBXNativeTarget "MikaCalendar" */;
+			buildPhases = (
+				254F017F1FD7D54500DEEEAE /* Sources */,
+				254F01801FD7D54500DEEEAE /* Frameworks */,
+				254F01811FD7D54500DEEEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MikaCalendar;
+			productName = MikaCalendar;
+			productReference = 254F01831FD7D54500DEEEAE /* MikaCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		254F019A1FD7D54500DEEEAE /* MikaCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254F01B21FD7D54500DEEEAE /* Build configuration list for PBXNativeTarget "MikaCalendarTests" */;
+			buildPhases = (
+				254F01971FD7D54500DEEEAE /* Sources */,
+				254F01981FD7D54500DEEEAE /* Frameworks */,
+				254F01991FD7D54500DEEEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254F019D1FD7D54500DEEEAE /* PBXTargetDependency */,
+			);
+			name = MikaCalendarTests;
+			productName = MikaCalendarTests;
+			productReference = 254F019B1FD7D54500DEEEAE /* MikaCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		254F01A51FD7D54500DEEEAE /* MikaCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254F01B51FD7D54500DEEEAE /* Build configuration list for PBXNativeTarget "MikaCalendarUITests" */;
+			buildPhases = (
+				254F01A21FD7D54500DEEEAE /* Sources */,
+				254F01A31FD7D54500DEEEAE /* Frameworks */,
+				254F01A41FD7D54500DEEEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				254F01A81FD7D54500DEEEAE /* PBXTargetDependency */,
+			);
+			name = MikaCalendarUITests;
+			productName = MikaCalendarUITests;
+			productReference = 254F01A61FD7D54500DEEEAE /* MikaCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		254F017B1FD7D54500DEEEAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mika;
+				TargetAttributes = {
+					254F01821FD7D54500DEEEAE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					254F019A1FD7D54500DEEEAE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 254F01821FD7D54500DEEEAE;
+					};
+					254F01A51FD7D54500DEEEAE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 254F01821FD7D54500DEEEAE;
+					};
+				};
+			};
+			buildConfigurationList = 254F017E1FD7D54500DEEEAE /* Build configuration list for PBXProject "MikaCalendar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 254F017A1FD7D54500DEEEAE;
+			productRefGroup = 254F01841FD7D54500DEEEAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				254F01821FD7D54500DEEEAE /* MikaCalendar */,
+				254F019A1FD7D54500DEEEAE /* MikaCalendarTests */,
+				254F01A51FD7D54500DEEEAE /* MikaCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		254F01811FD7D54500DEEEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254F01931FD7D54500DEEEAE /* LaunchScreen.storyboard in Resources */,
+				254F01901FD7D54500DEEEAE /* Assets.xcassets in Resources */,
+				254F018E1FD7D54500DEEEAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254F01991FD7D54500DEEEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254F01A41FD7D54500DEEEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		254F017F1FD7D54500DEEEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254F018B1FD7D54500DEEEAE /* ViewController.m in Sources */,
+				254F01961FD7D54500DEEEAE /* main.m in Sources */,
+				254F01881FD7D54500DEEEAE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254F01971FD7D54500DEEEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254F01A01FD7D54500DEEEAE /* MikaCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		254F01A21FD7D54500DEEEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254F01AB1FD7D54500DEEEAE /* MikaCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		254F019D1FD7D54500DEEEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254F01821FD7D54500DEEEAE /* MikaCalendar */;
+			targetProxy = 254F019C1FD7D54500DEEEAE /* PBXContainerItemProxy */;
+		};
+		254F01A81FD7D54500DEEEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 254F01821FD7D54500DEEEAE /* MikaCalendar */;
+			targetProxy = 254F01A71FD7D54500DEEEAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		254F018C1FD7D54500DEEEAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254F018D1FD7D54500DEEEAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		254F01911FD7D54500DEEEAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254F01921FD7D54500DEEEAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		254F01AD1FD7D54500DEEEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		254F01AE1FD7D54500DEEEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		254F01B01FD7D54500DEEEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 382XF688LJ;
+				INFOPLIST_FILE = MikaCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mika.MikaCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		254F01B11FD7D54500DEEEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 382XF688LJ;
+				INFOPLIST_FILE = MikaCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mika.MikaCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		254F01B31FD7D54500DEEEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 382XF688LJ;
+				INFOPLIST_FILE = MikaCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mika.MikaCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MikaCalendar.app/MikaCalendar";
+			};
+			name = Debug;
+		};
+		254F01B41FD7D54500DEEEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 382XF688LJ;
+				INFOPLIST_FILE = MikaCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mika.MikaCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MikaCalendar.app/MikaCalendar";
+			};
+			name = Release;
+		};
+		254F01B61FD7D54500DEEEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 382XF688LJ;
+				INFOPLIST_FILE = MikaCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mika.MikaCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MikaCalendar;
+			};
+			name = Debug;
+		};
+		254F01B71FD7D54500DEEEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 382XF688LJ;
+				INFOPLIST_FILE = MikaCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mika.MikaCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MikaCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		254F017E1FD7D54500DEEEAE /* Build configuration list for PBXProject "MikaCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254F01AD1FD7D54500DEEEAE /* Debug */,
+				254F01AE1FD7D54500DEEEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254F01AF1FD7D54500DEEEAE /* Build configuration list for PBXNativeTarget "MikaCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254F01B01FD7D54500DEEEAE /* Debug */,
+				254F01B11FD7D54500DEEEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254F01B21FD7D54500DEEEAE /* Build configuration list for PBXNativeTarget "MikaCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254F01B31FD7D54500DEEEAE /* Debug */,
+				254F01B41FD7D54500DEEEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254F01B51FD7D54500DEEEAE /* Build configuration list for PBXNativeTarget "MikaCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254F01B61FD7D54500DEEEAE /* Debug */,
+				254F01B71FD7D54500DEEEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 254F017B1FD7D54500DEEEAE /* Project object */;
+}
